@@ -4,7 +4,9 @@ Basic module for email validation.
 
 ## Installation
 npm i --save @secretsofsume/valid-email
+
 or
+
 yarn add @secretsofsume/valid-email
 
 ## How to use
