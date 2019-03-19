@@ -29,7 +29,7 @@ describe('Starting e-mail validation feature test', () => {
             faker.internet.avatar()
         ]
 
-        for (var i = 0; i < 9; i++) {
+        for (var i = 0; i < Types.length; i++) {
             email = Types[i];
             console.log(email);
             expect(validEmail(email)).toEqual(false);
